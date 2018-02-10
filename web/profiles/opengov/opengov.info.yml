@@ -3,6 +3,9 @@ type: profile
 description: Government / Municipalities Distribution.
 core: 8.x
 
+distribution:
+  name: OpenGov
+
 dependencies:
   # Core modules
   - block
@@ -21,6 +24,7 @@ dependencies:
   - filter
   - help
   - image
+  - layout_builder
   - layout_discovery
   - link
   - media
@@ -41,6 +45,7 @@ dependencies:
 
   # Contrib modules
   - admin_toolbar
+  - adminimal_admin_toolbar
   - config_devel
   - ctools
   - linkit

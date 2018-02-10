@@ -297,7 +297,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'MqBnP9dKa11QEiH_vNYK2C4e9dgkXeGJLne9F83Mu6hBc8D9vYHnWMZwIm7_8dx1-rhMgmU5Tg';
 
 /**
  * Deployment identifier.
@@ -785,4 +785,9 @@ $settings['entity_update_batch_size'] = 50;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
-$config_directories['sync'] = '../config/sync';
+
+// Local settings. These come last so that they can override anything.
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+  include $app_root . '/' . $site_path . '/settings.local.php';
+}
+

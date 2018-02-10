@@ -44,7 +44,8 @@
         "drupal/config_devel": "^1.2",
         "drupal/linkit": "^4.3",
         "drupal/admin_toolbar": "^1.23",
-        "drupal/twitter_block": "^2.1"
+        "drupal/twitter_block": "^2.1",
+        "drupal/adminimal_admin_toolbar": "^1.5"
     },
     "replace": {
         "drupal/core": "*"
