@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9be7a417baabee46ca8807bff794f026",
+    "content-hash": "a486a10c6b16d2b275a1ca7161626730",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -4777,6 +4777,28 @@
             "time": "2018-01-21T19:05:02+00:00"
         },
         {
+            "name": "thinktandem/bootstrap",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thinktandem/bootstrap-library",
+                "reference": "3980d02da805b607050ae566f91aec96c7d083fc"
+            },
+            "type": "drupal-library",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "John Ouellet",
+                    "email": "john@thinktandem.io"
+                }
+            ],
+            "description": "Simple Bootstrap 4 Library Download",
+            "homepage": "https://github.com/thinktandem/bootstrap-library",
+            "time": "2018-02-10T20:51:19+00:00"
+        },
+        {
             "name": "twig/twig",
             "version": "v1.35.0",
             "source": {
@@ -7442,7 +7464,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "thinktandem/bootstrap": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

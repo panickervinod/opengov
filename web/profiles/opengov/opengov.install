@@ -67,9 +67,16 @@ function opengov_themes_setup(array &$install_state) {
   ->set('use_admin_theme', TRUE)
   ->save();
 
-  // Set the default theme to BARRIO CHILD THEME
-  // \Drupal::configFactory()
-  // ->getEditable('system.theme')
-  // ->set('default', 'BS4-CHILD-THEME-WHEN-THAT-IS-BUILT')
-  // ->save();
+  // Set the default theme to bootstrap_barrio.
+  \Drupal::configFactory()
+  ->getEditable('system.theme')
+  ->set('default', 'bootstrap_barrio')
+  ->save();
+
+  // Set the default library in bootstrap_barrio to production.
+  // library that is in root libraries folder.
+  \Drupal::configFactory()
+  ->getEditable('bootstrap_barrio.settings')
+  ->set('bootstrap_barrio_library', 'production')
+  ->save();
 }

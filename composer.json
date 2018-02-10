@@ -15,6 +15,10 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/thinktandem/bootstrap-library"
         }
     ],
     "require": {
@@ -25,7 +29,8 @@
         "drupal/core": "~8.5",
         "drush/drush": "^9.0.0",
         "webflo/drupal-finder": "^1.0.0",
-        "webmozart/path-util": "^2.3"
+        "webmozart/path-util": "^2.3",
+        "thinktandem/bootstrap": "dev-master"
     },
     "require-dev": {
         "webflo/drupal-core-require-dev": "~8.5",
