@@ -1,0 +1,7 @@
+name: opengov
+recipe: drupal8
+config:
+  via: nginx
+  webroot: web
+  database: mariadb:10.1
+  php: '7.1'
