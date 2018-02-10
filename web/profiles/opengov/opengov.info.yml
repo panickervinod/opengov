@@ -1,0 +1,59 @@
+name: OpenGov
+type: profile
+description: Government / Municipalities Distribution.
+core: 8.x
+
+dependencies:
+  # Core modules
+  - block
+  - block_content
+  - ckeditor
+  - config
+  - comment
+  - contextual
+  - datetime
+  - dynamic_page_cache
+  - editor
+  - entity_reference
+  - field_layout
+  - field_ui
+  - file
+  - filter
+  - help
+  - image
+  - layout_discovery
+  - link
+  - media
+  - menu_link_content
+  - menu_ui
+  - node
+  - options
+  - path
+  - page_cache
+  - quickedit
+  - taxonomy
+  - rdf
+  - search
+  - shortcut
+  - toolbar
+  - views
+  - views_ui
+
+  # Contrib modules
+  - admin_toolbar
+  - config_devel
+  - ctools
+  - linkit
+  - metatag
+  - pathauto
+  - paragraphs
+  - token
+  - twitter_block
+  - schema_metatag
+
+  # Custom modules
+
+
+themes:
+  - adminimal_theme
+  - bootstrap_barrio

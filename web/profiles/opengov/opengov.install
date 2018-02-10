@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the OpenGov profile.
+ */
+
+/**
+ * Implements hook_install_tasks().
+ */
+// function opengov_install_tasks(&$install_state) {
+//   return [
+//     'configurable_profile_dependencies' => [
+//       'display_name' => t('Configurable Modules'),
+//       'display' => TRUE,
+//       'type' => 'form',
+//       'function' => 'Drupal\opengov\Form\ConfigurableProfileDependenciesForm',
+//     ],
+//   ];
+// }
