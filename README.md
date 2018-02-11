@@ -1,7 +1,7 @@
 OpenGov Distribution
 =====================
 
-Currently a work in progress, requires Drupal 8.5.x+
+Currently a work in progress, requires Drupal >= 8.6.x
 
 What it does have now:
 
