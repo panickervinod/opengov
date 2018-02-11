@@ -48,6 +48,7 @@ dependencies:
   - adminimal_admin_toolbar
   - bootstrap_library
   - config_devel
+  - config_rewrite
   - ctools
   - linkit
   - metatag

@@ -1,0 +1,7 @@
+{
+  "patches": {
+    "drupal/config_rewrite": {
+      "https://dgo.to/2903629 Stop creating config during rewrites of optional or non existing config": "https://www.drupal.org/files/issues/allow_optional_config-2903629-14.patch"
+    }
+  }
+}
