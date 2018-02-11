@@ -4,8 +4,53 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "81f7ae540885e7dc96814692ceae9223",
+    "content-hash": "bcfa6d1aab665c4cdc6860f63f5c98f2",
     "packages": [
+        {
+            "name": "bjeavons/zxcvbn-php",
+            "version": "0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bjeavons/zxcvbn-php.git",
+                "reference": "331a88932d1a399c989967d3399a4a40eb182fd5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bjeavons/zxcvbn-php/zipball/331a88932d1a399c989967d3399a4a40eb182fd5",
+                "reference": "331a88932d1a399c989967d3399a4a40eb182fd5",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*",
+                "satooshi/php-coveralls": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ZxcvbnPhp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "See contributors",
+                    "homepage": "https://github.com/bjeavons/zxcvbn-php"
+                }
+            ],
+            "description": "Realistic password strength estimation PHP library based on Zxcvbn JS",
+            "homepage": "https://github.com/bjeavons/zxcvbn-php",
+            "keywords": [
+                "password",
+                "zxcvbn"
+            ],
+            "time": "2017-01-06T15:43:33+00:00"
+        },
         {
             "name": "composer/installers",
             "version": "v1.5.0",
@@ -295,6 +340,54 @@
             "homepage": "https://www.drupal.org/project/adminimal_theme",
             "support": {
                 "source": "http://cgit.drupalcode.org/adminimal_theme"
+            }
+        },
+        {
+            "name": "drupal/better_passwords",
+            "version": "1.0.0-beta2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/better_passwords",
+                "reference": "8.x-1.0-beta2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/better_passwords-8.x-1.0-beta2.zip",
+                "reference": "8.x-1.0-beta2",
+                "shasum": "3e9e0fc22ef92205c1fabd842edea6997596ad2f"
+            },
+            "require": {
+                "bjeavons/zxcvbn-php": "*",
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta2",
+                    "datestamp": "1504573444",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "dnotes",
+                    "homepage": "https://www.drupal.org/user/138300"
+                }
+            ],
+            "description": "Attempts to ensure better passwords according to recommendations from groups like NIST.",
+            "homepage": "https://www.drupal.org/project/better_passwords",
+            "support": {
+                "source": "http://cgit.drupalcode.org/better_passwords"
             }
         },
         {
@@ -875,6 +968,85 @@
             }
         },
         {
+            "name": "drupal/mass_pwreset",
+            "version": "1.0.0-alpha4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/mass_pwreset",
+                "reference": "8.x-1.0-alpha4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/mass_pwreset-8.x-1.0-alpha4.zip",
+                "reference": "8.x-1.0-alpha4",
+                "shasum": "ae3f5ed58dcdf26b63519a6fc877ebd2e2ddf40b"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha4",
+                    "datestamp": "1487968083",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "bdone",
+                    "homepage": "https://www.drupal.org/user/687670"
+                },
+                {
+                    "name": "cyu-dupe",
+                    "homepage": "https://www.drupal.org/user/786422"
+                },
+                {
+                    "name": "deekayen",
+                    "homepage": "https://www.drupal.org/user/972"
+                },
+                {
+                    "name": "deetergp",
+                    "homepage": "https://www.drupal.org/user/1134002"
+                },
+                {
+                    "name": "mikebarkas",
+                    "homepage": "https://www.drupal.org/user/1982966"
+                },
+                {
+                    "name": "shrop",
+                    "homepage": "https://www.drupal.org/user/14767"
+                },
+                {
+                    "name": "sjpatrick",
+                    "homepage": "https://www.drupal.org/user/114741"
+                },
+                {
+                    "name": "tecto",
+                    "homepage": "https://www.drupal.org/user/54020"
+                },
+                {
+                    "name": "tlattimore",
+                    "homepage": "https://www.drupal.org/user/624754"
+                }
+            ],
+            "description": "Reset all user accounts!",
+            "homepage": "https://www.drupal.org/project/mass_pwreset",
+            "support": {
+                "source": "http://cgit.drupalcode.org/mass_pwreset"
+            }
+        },
+        {
             "name": "drupal/metatag",
             "version": "1.4.0",
             "source": {
@@ -1010,6 +1182,57 @@
             "homepage": "https://www.drupal.org/project/paragraphs",
             "support": {
                 "source": "http://cgit.drupalcode.org/paragraphs"
+            }
+        },
+        {
+            "name": "drupal/password_haveibeenpwned",
+            "version": "1.0.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/password_haveibeenpwned",
+                "reference": "8.x-1.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/password_haveibeenpwned-8.x-1.0-beta1.zip",
+                "reference": "8.x-1.0-beta1",
+                "shasum": "2d4ac43079ec189e5fee4a3a8ff652ce0cb6d78c"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta1",
+                    "datestamp": "1513338185",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Koen Verheyen",
+                    "homepage": "https://www.drupal.org/user/634772"
+                },
+                {
+                    "name": "mcdruid",
+                    "homepage": "https://www.drupal.org/user/255969"
+                }
+            ],
+            "description": "Checks passwords against HIBP passwords breach API",
+            "homepage": "https://www.drupal.org/project/password_haveibeenpwned",
+            "support": {
+                "source": "http://cgit.drupalcode.org/password_haveibeenpwned"
             }
         },
         {
@@ -1315,7 +1538,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/password_haveibeenpwned": 10
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

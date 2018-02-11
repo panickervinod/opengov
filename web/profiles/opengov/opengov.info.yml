@@ -58,7 +58,7 @@ dependencies:
   - schema_metatag
 
   # Custom modules
-
+  - opengov_password_compliance
 
 themes:
   - adminimal_theme

@@ -46,7 +46,10 @@
         "drupal/admin_toolbar": "^1.23",
         "drupal/twitter_block": "^2.1",
         "drupal/adminimal_admin_toolbar": "^1.5",
-        "drupal/bootstrap_library": "^1.9"
+        "drupal/bootstrap_library": "^1.9",
+        "drupal/better_passwords": "^1.0",
+        "drupal/mass_pwreset": "^1.0",
+        "drupal/password_haveibeenpwned": "^1.0"
     },
     "replace": {
         "drupal/core": "*"
