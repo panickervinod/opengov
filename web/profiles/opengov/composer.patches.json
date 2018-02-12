@@ -2,6 +2,9 @@
   "patches": {
     "drupal/config_rewrite": {
       "https://dgo.to/2903629 Stop creating config during rewrites of optional or non existing config": "https://www.drupal.org/files/issues/allow_optional_config-2903629-14.patch"
+    },
+    "drupal/bootstrap_barrio": {
+      "https://dgo.to/2944011 Layouts break Layout Builder": "https://www.drupal.org/files/issues/bootstrap_barrio-layouts-break-layout-builder.patch"
     }
   }
 }
