@@ -50,6 +50,7 @@ dependencies:
   - config_devel
   - config_rewrite
   - ctools
+  - dynamic_layouts
   - linkit
   - metatag
   - pathauto
